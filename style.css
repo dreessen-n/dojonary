@@ -5,3 +5,50 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav-container {
+    background-color: grey;
+}
+
+.nav-bar {
+    background-color: yellow;
+}
+
+/* main content section  */
+
+.main-container {
+    background-color: seagreen;
+}
+
+/* left-main section  */
+
+.left-main {
+    background-color: purple;
+}
+
+.def-box1 {
+    background-color: #fff;
+}
+
+.def-box2 {
+    background: #fff;
+}
+
+/* right-main section  */
+
+.right-main {
+    background-color: purple;
+}
+
+.add-definition {
+    background: #000;
+}
+
+.btn-addDef {
+    background-color: purple;
+}
