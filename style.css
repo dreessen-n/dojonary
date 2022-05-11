@@ -53,33 +53,41 @@
 /* main content section  */
 
 .main-container {
+	display: flex;
     background-color: seagreen;
 }
 
 /* left-main section  */
 
 .left-main {
+	display: flex;
+	flex-direction: column;
     background-color: purple;
 }
 
 .def-box1 {
+	display: flex;
     background-color: #fff;
 }
 
 .def-box2 {
+	display: flex;
     background: #fff;
 }
 
 /* right-main section  */
 
 .right-main {
+	display: flex;
     background-color: purple;
 }
 
 .add-definition {
+	display: flex;
     background: #000;
 }
 
 .btn-addDef {
+	display: flex;
     background-color: purple;
 }
