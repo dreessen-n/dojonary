@@ -11,12 +11,61 @@
 	margin: 0 auto;
 }
 
-.nav-container {
+.nav-bar {
     background-color: grey;
 }
 
-.nav-bar {
-    background-color: yellow;
+.nav-container {
+	background-color: navajowhite;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.nav-title {
+	display: flex;
+	flex: .15 0 auto;
+	color: royalblue;
+	justify-content: left;
+}
+
+ul.nav-links {
+	display: flex;
+	flex: .7 0 auto;
+	align-items: center;
+}
+
+li.nav-links {
+	display: flex;
+	margin-left: 20px;
+	text-decoration: none;
+	justify-content: flex-start;
+}
+
+a.nav-links {
+	display: flex;
+	color: royalblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.btn_nav-container {
+	display: flex;
+	flex: .15 0 auto;
+	justify-content: flex-end; 
+}
+
+.btn_nav-signOut {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: royalblue;
+	color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 75px;
+	height: 30px;
 }
 
 /* main content section  */
