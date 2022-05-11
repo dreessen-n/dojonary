@@ -7,17 +7,25 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
 	width: 1200px;
 	margin: 0 auto;
 }
 
+/* navigation section  */
+
 .nav-bar {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center; 
     background-color: grey;
 }
 
 .nav-container {
 	background-color: navajowhite;
 	display: flex;
+    flex: 1 0 auto;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
