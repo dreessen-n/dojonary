@@ -38,32 +38,6 @@
 	justify-content: left;
 }
 
-ul.nav-links {
-	display: flex;
-	flex: .7 0 auto;
-	align-items: center;
-}
-
-li.nav-links {
-	display: flex;
-	margin-left: 20px;
-	text-decoration: none;
-	justify-content: flex-start;
-}
-
-a.nav-links {
-	display: flex;
-	color: royalblue;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.btn_nav-container {
-	display: flex;
-	flex: .15 0 auto;
-	justify-content: flex-end; 
-}
-
 .btn_nav-login {
 	display: flex;
 	justify-content: center;
