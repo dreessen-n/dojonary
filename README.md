@@ -1,0 +1,2 @@
+# dojonary
+self defined dictionary
