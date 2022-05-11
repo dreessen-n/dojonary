@@ -64,7 +64,7 @@ a.nav-links {
 	justify-content: flex-end; 
 }
 
-.btn_nav-signOut {
+.btn_nav-login {
 	display: flex;
 	justify-content: center;
 	align-items: center;
