@@ -52,42 +52,36 @@
 
 /* main content section  */
 
-.main-container {
-	display: flex;
-    background-color: seagreen;
+/* Trying Grid layout for this assignment  */
+
+/* GRID section  */
+
+.grid-container {
+	display: grid;
+	grid-template: 200px 200px / auto auto;
+	/* grid-template-columns: auto auto;
+	background-color: blue; */
+	gap: 20px;
+	margin-top: 20px;
+
 }
 
-/* left-main section  */
-
-.left-main {
-	display: flex;
-	flex-direction: column;
-    background-color: purple;
+.grid-item1 {
+	background-color: yellow;
 }
 
-.def-box1 {
-	display: flex;
-    background-color: #fff;
+.grid-item2 {
+	background-color: navajowhite;
 }
 
-.def-box2 {
-	display: flex;
-    background: #fff;
+.grid-item3 {
+	grid-area: 1 / 2 / 3 / 3;
+	background-color: seagreen;
 }
 
-/* right-main section  */
-
-.right-main {
-	display: flex;
-    background-color: purple;
+.grid-def1-container {
+	display: grid;
+	grid-template: auto auto auto auto / auto auto;
 }
 
-.add-definition {
-	display: flex;
-    background: #000;
-}
 
-.btn-addDef {
-	display: flex;
-    background-color: purple;
-}
