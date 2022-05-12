@@ -76,7 +76,8 @@
 	display: grid;
     align-items: center;
     justify-content: space-evenly;
-	background-color: yellow;
+	border: 2px solid black;
+	border-radius: 25px;
 }
 
 .grid-def-container {
@@ -87,16 +88,35 @@
 .grid-def-item {
 	display: grid;
     width: 200px;
-    background-color: seagreen;
 }
 
 .def-title {
-	border: 2px solid black;
+	font-size: 35px;
 }
+
+.def-grammar {
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.def-plural {
+	margin-top: 5px;
+}
+
+.btn_def-likes {
+	width: 70px;
+	background-color: orange;
+	border: 2px solid black;
+	box-shadow: 3px 3px darkblue;
+	margin-top: 10px;
+}
+
+
 
 .grid-def-definition {
 	display: grid;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 /* Add Definition section V */
@@ -104,9 +124,10 @@
 .grid-item3 {
 	display: grid;
 	grid-area: 1 / 2 / 2 / 3;
-	background-color: seagreen;
 	align-items: center;
 	justify-content: center;
+	border: 2px solid black;
+	border-radius: 25px;
 }
 
 
