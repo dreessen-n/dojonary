@@ -18,7 +18,7 @@
 .nav-bar {
     display: flex;
     flex: 1 0 auto;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .nav-container {
@@ -28,6 +28,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .nav-title {

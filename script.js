@@ -9,7 +9,9 @@ function siteLogOut() {
     }
 }
 
-function removeButton(element) {
+// Function to hide button
+
+function hideButton(element) {
     console.log(element);
     element.style.display = 'none';
 }
