@@ -8,3 +8,8 @@ function siteLogOut() {
         document.getElementById("btn_signInOut").innerText = 'Login'
     }
 }
+
+function removeButton(element) {
+    console.log(element);
+    element.style.display = 'none';
+}
