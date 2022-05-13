@@ -13,3 +13,7 @@ function removeButton(element) {
     console.log(element);
     element.style.display = 'none';
 }
+
+function ninjaLiked() {
+    alert('Ninja was liked!')
+}
